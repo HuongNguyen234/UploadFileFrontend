@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    word-spacing: 2;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+}
+
+button,
+input {
+    border: none;
+}
+
+button:focus,
+input:focus {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+*::-moz-selection {
+    color: white;
+    background: pink;
+}
+
+*::selection {
+    color: white;
+    background: pink;
+}
+
+/* CSS form */
+.workplace {
+    position: relative;
+}
+
+.form-head {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: cadetblue;
+}
+
+.upload-form {
+    margin-top: 50px;
+    width: 35%;
+    height: 200px;
+    border-radius: 4px;
+    background-color: rgba(95, 158, 160, 0.205);
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.upload-form ul {
+    padding: 60px 10px;
+    text-align: center;
+}
+
+.upload-form ul .btn {
+    margin-top: 25px;
+    width: 120px;
+    box-shadow: 0px 10px 6px -6px #999999;
+}
+
+.filelabel {
+    width: 100%;
+    border: 2px dashed grey;
+    border-radius: 5px;
+    padding: 5px;
+    transition: border 300ms ease;
+    cursor: pointer;
+    text-align: center;
+    margin: 0;
+}
+
+.filelabel i {
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+
+.filelabel i,
+.filelabel .title {
+    color: grey;
+    transition: 200ms color;
+}
+
+#file-input {
+    display: none;
+}
+
+.custom-link{
+    color: blue; 
+    text-decoration: underline;
+}
